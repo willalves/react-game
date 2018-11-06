@@ -1,7 +1,28 @@
 body {
 	font: 14px Arial, sans-serif;
 	margin: 20px;
-	background-color: #4485e5;
+	background-color: #282c34;
+	color: #FFF;
+	text-align: center;
+
+}
+
+.logo-react {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 10s linear;
+	height: 20vmin;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: 0 0 5px #ccc;
 }
 
 ol, ul {
@@ -19,7 +40,7 @@ ol, ul {
 }
 
 .square {
-	background: #4485e5;
+	background: rgba(255,255,255, .1);
 	color: #FFF;
 	border: 1px solid #fff;
 	float: left;
@@ -48,4 +69,18 @@ ol, ul {
 
 .game-info {
 	margin-left: 20px;
+}
+
+footer {
+	color: #ccc;
+	margin-top: 5px;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
